@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+h5py = "==2.10.0"
+tensorflow = "==2.4"
+scikit-learn = "==0.23"
+scikit-multiflow = "==0.5"
+black = "*"
+pipfile = "*"
+ipykernel = "*"
+jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
